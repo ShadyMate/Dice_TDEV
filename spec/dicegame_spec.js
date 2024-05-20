@@ -18,4 +18,8 @@ describe('Dice', function() {
 	it('should return 2 for [ 6, 6, 4, 4, 1, 3 ]', function() {
 		expect(dice.add(array3)).toEqual(0);
 	});
+	let array4 = [3, 5, 3, 5, 4, 2]
+	it('should return 12 for [ 3, 5, 3, 5, 4, 2 ]', function() {
+		expect(dice.add(array4)).toEqual(12);
+	});
 });
