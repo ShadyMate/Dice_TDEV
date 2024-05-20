@@ -1,5 +1,5 @@
 // StringCalculator.js
-function StringCalculator() {}
-StringCalculator.prototype.add = function(string_numbers) {
+function Dice() {}
+Dice.prototype.add = function(dice_calc) {
 	//
 };

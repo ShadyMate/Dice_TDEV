@@ -1,9 +1,10 @@
-describe('String Calculator', function() {
+describe('Dice', function() {
 	beforeEach(function() {
-		calculator = new StringCalculator();
+		dice = new Dice();
 	});
 
-	it('should return 0 for an empty string', function() {
-		expect(calculator.add('')).toEqual(0);
+	it('should return 6 for [ 1, 2, 3, 4, 5 ]', function() {
+		let array = [1, 2, 3, 4, 5];
+		expect(dice.add(array)).toEqual(6);
 	});
 });
