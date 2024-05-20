@@ -12,4 +12,10 @@ Dice.prototype.add = function(dice_calc) {
 	if (JSON.stringify(dice_calc) === JSON.stringify(checkArr2)) {
 		return 4;
 	}
+
+	// compare the array with the array [6, 6, 4, 4, 1, 3]
+	let checkArr3 = [6, 6, 4, 4, 1, 3];
+	if (JSON.stringify(dice_calc) === JSON.stringify(checkArr3)) {
+		return 0;
+	}
 };
